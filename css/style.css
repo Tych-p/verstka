@@ -1,0 +1,280 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.header {
+	height: 120px;
+}
+
+.header__text {
+	padding: 50px;
+	color: #e3a68b;
+	font-size: 12pt;
+}
+
+nav {
+	height: 80px;
+	background-color: #898d8e;
+	display: flex;
+	align-items: center;
+	padding-left: 60px;
+}
+
+nav a {
+	margin: 30px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.header__link-bg {
+	background-color: #7d9097;
+	width: 100px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.header__link-bg a{
+	color: #000;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #506dff;
+}
+
+.content {
+	background-color: #b7bcbe;
+	height: 700px;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content__fuck p:first-child{
+	font-size: 35pt;
+	color: #fff;
+}
+
+.content__fuck p:last-child{
+	font-size: 25pt;
+	color: #d7794a;
+}
+
+.team-leaders {
+	height: 1200px;
+}
+
+.team-leaders__text {
+	padding: 130px;
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.team-leaders__text h2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30pt;
+	color: #a95e39;
+	margin: 70px;
+	border-bottom: solid 2px #a95e39;
+	padding-left:10px
+}
+
+.team-leaders__text p{
+	font-size: 15pt;
+	margin: 15px;
+}
+
+.team-leaders__board {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+}
+
+.board__tabel {
+	width: 400px;
+	height: 600px;
+}
+
+.board__img {
+	width: 400px;
+	height: 450px;
+	background: #bfc7cb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.board__tabel h2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15pt;
+	padding: 20px 0px;
+}
+
+.board__tabel p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10pt;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 90px;
+}
+
+.block-information {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 240px;
+	background: #1f3138;
+}
+
+.block-information__content {
+	margin:30px;
+	padding: 100px;;
+}
+
+.block-information__content h2{
+	font-size: 45pt;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #88543b;
+	padding-bottom: 10px;
+}
+
+.block-information__content p{
+	font-size: 13pt;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.empty-block {
+	height: 1125px;
+}
+
+.block-contact-us {
+	height: 1435px;
+	background: #2a3e47;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.block-contact-us__text {
+
+}
+
+.block-contact-us__text h2{
+	color: #fff;
+	font-size: 32pt;
+	padding-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.block-contact-us__text p {
+	font-size: 14pt;
+	text-align: center;
+	color: #c0c0c0;
+}
+
+.form-contact-us {
+
+}
+.form-contact-us__block1 {
+	margin: 10px;
+}
+.form-contact-us__input-name {
+	width: 500px;
+	height: 70px;
+	background-color: : #2a3e47 
+	border: 1px solid #000;
+
+}
+.form-contact-us__input-cat {
+	width: 500px;
+	height: 70px;
+}
+.form-contact-us__block2 {
+	margin: 10px;
+}
+.form-contact-us__input-phone {
+	width: 500px;
+	height: 70px;
+}
+.form-contact-us__input-city {
+	width: 500px;
+	height: 70px;
+}
+.form-contact-us__block3 {
+	margin: 10px;
+	
+}
+.form-contact-us__input-email {
+	width: 1000px;
+	height: 70px;
+}
+.form-contact-us__block4 {
+	margin: 10px;
+	
+}
+.form-contact-us__input-message {
+	width: 1000px;
+	height: 200px;
+}
+
+.form-contact-us__button {
+	width: 240px;
+	height: 75px;
+	border: 3px solid #623621;
+	background-color: #89553b;
+	font-size: 20px;
+}
+
+.form-contact-us__block-button {
+	margin: 10px;
+}
